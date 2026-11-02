@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Realidad La Costa | Noticias</title>
+<meta name="description" content="Las últimas noticias del Partido de La Costa. Policiales, actualidad, deportes e información local.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f4f4f4;color:#202020}
+header{background:#111;color:white}
+.top{max-width:1100px;margin:auto;padding:20px 16px}
+.logo{font-size:30px;font-weight:900;letter-spacing:-1px}
+.logo span{color:#f07836}
+.slogan{font-size:11px;color:#ccc;margin-top:5px}
+nav{background:#202020;overflow-x:auto;white-space:nowrap}
+nav div{max-width:1100px;margin:auto;display:flex}
+nav a{color:white;text-decoration:none;padding:15px 13px;font-size:13px}
+nav a:hover{background:#f07836}
+.ticker{background:#e9682d;color:white;padding:11px 16px;font-size:13px;font-weight:bold}
+.container{max-width:1100px;margin:25px auto;padding:0 15px}
+.section-title{border-left:5px solid #ed7137;padding-left:10px;margin-bottom:18px;font-size:21px}
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}
+.feature{background:#fff;border-radius:7px;overflow:hidden;box-shadow:0 2px 8px #0001}
+.feature img{width:100%;height:300px;object-fit:cover;display:block}
+.feature-content{padding:18px}
+.tag{color:#e66c32;font-size:11px;font-weight:bold;text-transform:uppercase}
+.feature h1{font-size:26px;margin:10px 0;line-height:1.2}
+.feature p{color:#666;font-size:14px;line-height:1.5}
+.side{display:flex;flex-direction:column;gap:15px}
+.small{display:flex;background:white;border-radius:7px;overflow:hidden;min-height:125px;box-shadow:0 2px 8px #0001}
+.small img{width:38%;object-fit:cover}
+.small div{padding:13px}
+.small h3{font-size:16px;margin-top:8px;line-height:1.3}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border-radius:7px;overflow:hidden;box-shadow:0 2px 8px #0001}
+.card img{width:100%;height:165px;object-fit:cover;display:block}
+.card-content{padding:15px}
+.card h3{font-size:17px;margin:8px 0;line-height:1.3}
+.card p{font-size:13px;color:#666;line-height:1.5}
+.date{font-size:11px;color:#999;margin-top:12px}
+footer{background:#151515;color:#ddd;text-align:center;padding:30px 15px;margin-top:40px;font-size:13px}
+footer strong{color:#f07836}
+@media(max-width:700px){
+.hero{grid-template-columns:1fr}
+.feature img{height:220px}
+.feature h1{font-size:23px}
+.grid{grid-template-columns:1fr 1fr;gap:10px}
+.card img{height:125px}
+.card-content{padding:11px}
+.card h3{font-size:15px}
+.small h3{font-size:14px}
+.logo{font-size:26px}
+}
+@media(max-width:420px){
+.grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="top">
+<div class="logo">REALIDAD <span>LA COSTA</span></div>
+<div class="slogan">#PeriodismoQueInforma</div>
+</div>
+<nav>
+<div>
+<a href="#">INICIO</a>
+<a href="#localidades">LOCALIDADES</a>
+<a href="#policiales">POLICIALES</a>
+<a href="#actualidad">ACTUALIDAD</a>
+<a href="#deportes">DEPORTES</a>
+</div>
+</nav>
+</header>
+
+<div class="ticker">ÚLTIMAS NOTICIAS &nbsp; | &nbsp; Toda la información del Partido de La Costa</div>
+
+<main class="container">
+
+<h2 class="section-title">Noticias destacadas</h2>
+
+<section class="hero">
+<article class="feature">
+<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1000" alt="Periodismo y noticias">
+<div class="feature-content">
+<div class="tag">PORTADA</div>
+<h1>Bienvenidos a Realidad La Costa</h1>
+<p>Un espacio para informarte sobre todo lo que sucede en el Partido de La Costa. Noticias, actualidad y periodismo local.</p>
+</div>
+</article>
+
+<div class="side">
+<article class="small">
+<img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500" alt="Localidades">
+<div><div class="tag">LOCALES</div><h3>Toda la información de nuestras localidades</h3></div>
+</article>
+<article class="small">
+<img src="https://images.unsplash.com/photo-1504150558243-4a1d6c5b5f8b?w=500" alt="Actualidad">
+<div><div class="tag">ACTUALIDAD</div><h3>Las noticias más importantes de la región</h3></div>
+</article>
+</div>
+</section>
+
+<section id="localidades" style="margin-top:35px">
+<h2 class="section-title">Información local</h2>
+<div class="grid">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600" alt="Costa">
+<div class="card-content"><div class="tag">SAN CLEMENTE</div><h3>Noticias de San Clemente del Tuyú</h3><p>Información y novedades de la localidad.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Playa">
+<div class="card-content"><div class="tag">SANTA TERESITA</div><h3>Noticias de Santa Teresita</h3><p>Todo lo que sucede en la ciudad.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600" alt="Mar">
+<div class="card-content"><div class="tag">MAR DEL TUYÚ</div><h3>Noticias de Mar del Tuyú</h3><p>Información de último momento.</p></div>
+</article>
+</div>
+</section>
+
+<section id="policiales" style="margin-top:35px">
+<h2 class="section-title">Policiales</h2>
+<div class="grid">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=600" alt="Información policial">
+<div class="card-content"><div class="tag">POLICIALES</div><h3>Las noticias policiales de La Costa</h3><p>Información y novedades del ámbito policial.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=600" alt="Noticias">
+<div class="card-content"><div class="tag">INFORMACIÓN</div><h3>Últimas novedades de la región</h3><p>Seguimos de cerca la actualidad local.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600" alt="Actualidad">
+<div class="card-content"><div class="tag">ACTUALIDAD</div><h3>Información para toda la comunidad</h3><p>Las novedades que necesitás conocer.</p></div>
+</article>
+</div>
+</section>
+
+<section id="actualidad" style="margin-top:35px">
+<h2 class="section-title">Actualidad</h2>
+<p style="background:white;padding:20px;border-radius:7px;color:#666">Muy pronto, más noticias y novedades del Partido de La Costa.</p>
+</section>
+
+</main>
+
+<footer>
+<strong>REALIDAD LA COSTA</strong>
+<p style="margin:10px">#PeriodismoQueInforma</p>
+<p>Noticias del Partido de La Costa</p>
+<p style="margin-top:15px">© 2026 Realidad La Costa</p>
+</footer>
+
+</body>
+  </html>
+  
